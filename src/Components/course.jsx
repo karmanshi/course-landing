@@ -47,13 +47,13 @@ const Course = () => {
                             <div className='grid-cols-4 w-[45vw] ml-20 '>
                                 <div className= 'w-[100%] flex flex-rows justify-center'>
 
-                                    <div className="w-[80%] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-1">
+                                    <div className="w-[80%] p-6 bg-white border border-gray-200 rounded-lg shadow grid grid-cols-1">
                                         <div>
                                             <h2 className='text-md font-bold mt-5'>Course:</h2>
                                             <h5 className="mb-2 text-4xl font-bold tracking-tight text-gray-900">{element.course.fee.currency}{element.course.fee.amount}/-</h5>
                                         </div>
                                         <h2 className='text-xl font-bold mt-5'>What's included:</h2>
-                                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                        <p className="mb-3 font-normal text-gray-700">
                                             <p>📺 {element.course.inclusions.on_demand_videos}</p>
                                             <p>📺 {element.course.inclusions.live_streams}</p>
                                             <p>✉ {element.course.inclusions.live_qa_sessions}</p>

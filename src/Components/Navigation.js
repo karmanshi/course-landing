@@ -6,7 +6,7 @@ const Navigation = () => {
         return (    
             <li className="my-4 mx-6">
                 <a
-                className="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 text-xl"
+                className="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 text-xl"
                 href={pat}>
                     {lnk}
                 </a>
@@ -17,7 +17,7 @@ const Navigation = () => {
         <div>
 
             <nav
-                className="relative flex w-full flex-nowrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+                className="relative flex w-full flex-nowrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start lg:py-4"
                 data-te-navbar-ref>
                 <div className="flex w-full flex-wrap justify-center px-3 text-center">
 
